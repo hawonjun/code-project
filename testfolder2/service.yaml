@@ -9,4 +9,4 @@ spec:
       targetPort: 8080
   selector:
     app: gs-spring-boot-docker
-  type: NodePort
+  type: LoadBalancer
